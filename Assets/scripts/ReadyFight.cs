@@ -48,12 +48,7 @@ public class ReadyFight : MonoBehaviour
 
             // Trouver le TextMeshPro dans la scène actuelle
             readyFightText = GameObject.Find("ReadyFightText")?.GetComponent<TextMeshProUGUI>();
-            if (readyFightText == null)
-            {
-                Debug.LogError("TextMeshProUGUI 'ReadyFightText' non trouvé dans la scène.");
-            }
-
-            // Démarrer la séquence "Ready" puis "Fight"
+        
             StartCoroutine(ShowReadyFight());
         }
     }

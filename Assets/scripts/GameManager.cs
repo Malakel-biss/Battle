@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        goldText.text = "Gold: " + playergold.ToString();
+        goldText.text = " " + playergold.ToString();
 
         if (currentPhase == GamePhase.Battle)
         {

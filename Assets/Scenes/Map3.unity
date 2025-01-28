@@ -3860,7 +3860,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 2192
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -9554,6 +9554,7 @@ GameObject:
   - component: {fileID: 1384873575}
   - component: {fileID: 1384873574}
   - component: {fileID: 1384873577}
+  - component: {fileID: 1384873578}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9645,6 +9646,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 110b27d3daaf944448057fdd16e033fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1384873578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384873573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11695fe45ccf9b34f83975f7177435e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 10
@@ -12512,8 +12525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7de983e57647a22419da2f1d6045299a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allCells: []
-  cellSize: 1
 --- !u!114 &1800180348
 MonoBehaviour:
   m_ObjectHideFlags: 0
